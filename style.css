@@ -42,3 +42,34 @@ input[type="text"] {
     padding: 2px;
     font-size: 30px;
 }
+
+@media (max-width: 400px) {
+    input[type="button"] {
+        width: 80.8px;
+        height: 85px;
+    }
+    input[type="text"] {
+        width: 325px;
+        height: 88px;
+    }
+}
+@media (max-width: 320px) {
+    input[type="button"] {
+        width: 65.8px;
+        height: 75px;
+    }
+    input[type="text"] {
+        width: 266px;
+        height: 88px;
+    }
+}
+@media (max-width: 270px) {
+    input[type="button"] {
+        width: 50.8px;
+        height: 70px;
+    }
+    input[type="text"] {
+        width: 205px;
+        height: 60px;
+    }
+}
